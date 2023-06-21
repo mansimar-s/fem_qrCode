@@ -1,0 +1,45 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F0F0F0; 
+}
+
+.surrounder {
+
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.panel {
+
+    padding: 1em;
+    width: 20%;
+    height: 25%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3%;
+}
+
+.attribution {
+
+    display: block;
+}
+
+.panel-heading {
+
+    text-align: center;
+}
+
+.panel-text {
+    text-align: center;
+}
+
+.qr-image {
+
+    max-width: 100%;
+    border-radius: 3%;
+}
